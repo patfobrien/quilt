@@ -1,0 +1,81 @@
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	overflow:hidden;
+}
+.clear {
+	clear:both;
+}
+#container {
+	width:800px;
+	height:450px;
+	margin:0 auto;
+	font-family: 'Verdana', Ariel, sans-serif;
+	font-size:18px;
+	color:#222;
+	font-weight:bold;
+	-webkit-user-select: none;       
+	-moz-user-select: none;
+	cursor:default;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+	background:url('assets/table.jpg');
+}
+#instructions {
+	width:520px;
+	height:40px;
+	margin:0 auto;
+	position:relative;
+	top:18px;
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 1);
+}
+#continue {
+	width:223px;
+	height:38px;
+	margin:6px 0 0 152px;
+	background:#ccc url('assets/Press2Continue.jpg') no-repeat;
+	cursor:pointer;
+	position:relative;
+	top:226px;
+	z-index:3;
+}
+#baby {
+	position:absolute;
+	left:-180px;
+	top:0;
+	opacity:0;
+	z-index:1;
+}
+.quilt {
+	position:absolute;
+	top:200px;
+	left:500px;
+	opacity:0;
+	z-index:3;
+}
+.picture {
+	z-index:4;
+}
+#quilt-fill {
+	width:248px;
+	height:361px;
+	position:absolute;
+	top:77px;
+	left:535px;
+	background:url('assets/quilt-backing.png');
+	background-size:248px 361px;
+	z-index:1;
+}
+.diamond {
+	width:115px;
+	height:115px;
+	position:absolute;
+	top:240px;
+	left:120px;
+	background-size:100% 100%;
+	font-size:12px;
+	opacity:0;
+}
